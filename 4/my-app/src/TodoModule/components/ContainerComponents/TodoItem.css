@@ -1,0 +1,51 @@
+.default, .done {
+    position: relative;
+    padding: 20px;
+    margin: 10px;
+    background: #dfdfdf;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.default:hover {
+    transition: all 0.5s;
+    background-color: #f1f1f1;
+}
+
+.buttonWrapper {
+    position: absolute;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.buttonWrapper:hover {
+    background: #6DBE75;
+    transition: all 0.2s;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    color: #9a9a9a;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+li.done  {
+    background: #DAF0E6;
+}
+
+li.done:hover {
+    background: #DAF0E6;
+}
